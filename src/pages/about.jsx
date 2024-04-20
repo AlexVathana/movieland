@@ -1,4 +1,6 @@
 import './App.css';
+import HomeIcon from '../homeicon.svg';
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -19,6 +21,10 @@ export default function About() {
       <p className="about-paragraph">
         Thank you for choosing MovieLand for your movie-watching needs. Sit back, relax, and enjoy the show!
       </p>
+
+      <Link to="/home" className="home-link">
+        <img src={HomeIcon} alt="Home" className="home-icon" />
+      </Link>
     </div>
   );
 }

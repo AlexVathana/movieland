@@ -5,8 +5,8 @@ import SearchIcon from '../search.svg';
 import MovieCard from '../MovieCard';
 
 
-
 const API_URL = 'https://www.omdbapi.com?apikey=7c50e322';
+
 
 
 
@@ -29,7 +29,6 @@ const handleKeyPress = (event) => {
         searchMovies(searchTerm)
     }
 }
-
 
    
     return (
