@@ -21,6 +21,7 @@ export default function About() {
       <p className="about-paragraph">
         Thank you for choosing MovieLand for your movie-watching needs. Sit back, relax, and enjoy the show!
       </p>
+      <a href="mailto:pvathana0997@dbu.edu" class='highlighted-link'>Email</a>
 
       <Link to="/home" className="home-link">
         <img src={HomeIcon} alt="Home" className="home-icon" />
